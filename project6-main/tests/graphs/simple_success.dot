@@ -1,0 +1,9 @@
+graph {
+graph [layout=circo]
+z [style="filled", fillcolor=lightsalmon]
+y [style="filled", fillcolor=lightseagreen]
+x [style="filled", fillcolor=lightpink]
+z -- y
+z -- x
+y -- x
+}
